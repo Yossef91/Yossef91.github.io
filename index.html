@@ -5,6 +5,22 @@
 <title> Login Form</title>
 <link rel="stylesheet" href="./css/index.css">
 <script src="./java_script/Login.js"></script>
+    <script>
+    function user_login()
+{
+    var username=document.getElementById("Username").value;
+    var password=document.getElementById("password").value;
+    if(username=="yossef"&& password =="123")
+    {
+        window.open("home.html")
+        return false;
+    }
+    else
+    {
+        alert("Login Failed");
+    }
+}
+</script>
 <style> 
 body{
     margin: 0;
