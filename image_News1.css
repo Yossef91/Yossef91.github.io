@@ -1,0 +1,206 @@
+body{
+    background-color: beige;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-size: cover;
+      /* height: 900vh; */
+  }
+  .italy{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: inline;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      padding-left: 100px;
+      padding-top: 100px;
+  }
+  .news{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: inline;
+    color: darkgrey;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;  
+      padding-top: 100px;
+  }
+  img.arrow{
+      width: 1%;
+      /* padding-left: 10px; */
+  }
+  .line a {
+      text-align: left;
+      text-decoration: none;
+      color: #666;
+  }
+  .line ul{
+      display: inline-flex;
+      list-style: none;
+      color: #666;
+  }
+  .line ul li{
+      width: 70px;
+      font-weight: bold;
+  }
+  .italy_news{
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  .news_down{
+      display: inline;
+      font-size: 1em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      padding-left: 110px;
+      /* padding-top: 100px; */
+  
+  }
+  .color{
+      border-bottom:  rgb(128, 122, 122);
+      border-top:  rgb(128, 122, 122);
+      border-style: dotted;
+      border-radius: 0px;
+      /* display: inline; */
+  }
+  .menu_bar{
+      text-align: left;
+      background-color: rgb(255, 255, 255);
+      /* padding-top: 30px; */
+  }
+  .menu_bar ul{
+      display: inline-flex;
+      list-style: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar ul li{
+      /* margin: 15px; */
+      padding: 15px;
+      width: 90px;
+  }
+  .menu_bar ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar ul li:hover{
+      background-color: rgb(230, 225, 225);
+      border-radius: 7px;
+      color: aliceblue;
+  }
+  img.icon{
+      width:20px;
+      height: 50px;
+      padding-top: 20px;
+      margin-right:8px;
+  }
+  .menu_football{
+      display: none;
+  }
+  .menu_bar ul li:hover .menu_football{
+  display: block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: -15px;
+  }
+  .menu_bar ul li:hover .menu_football ul{
+      display: block;
+      margin: 10px;
+  }
+  
+  .menu_bar ul li:hover .menu_football ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted rgb(128, 122, 122);
+    /* background: transparent; */
+    border-radius: 3px;
+    text-align: left;
+  }
+  .flag{
+      width: 13%;
+      /* text-align: left; */
+      /* padding-top: 40px; */
+      /* margin-top: 20px; */
+      /* align-content: left; */
+  }
+  .menu_bar2{
+      text-align: left;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding-top: 30px; */
+      border-bottom: 1px dotted rgb(179, 166, 166);
+      border-top: 1px dotted rgb(179, 166, 166);
+      border-radius: 3px;
+      width: 900px;
+  
+  }
+  .menu_bar2 ul{
+      display: inline-flex;
+      list-style: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar2 ul li{
+      /* margin: 15px; */
+      padding: 15px;
+      width: 90px;
+      font-weight: bold;
+  }
+  .menu_bar2 ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar2 ul li:hover{
+      background-color: rgb(230, 225, 225);
+      border-radius: 7px;
+      color: aliceblue;
+  }
+  img.icon{
+      width:20px;
+      height: 50px;
+      padding-top: 20px;
+      margin-right:8px;
+  }
+  .menu_football{
+      display: none;
+  }
+  .image_news1{
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /* background: rgba(0, 0, 0, 0.4); */
+    text-align: center;
+   
+}
+.image_news1 a{
+     text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(0, 0, 0);
+}
+p{
+    text-align: left;
+    padding: 20px;
+}
+.background{
+    top: 1000px;
+    height: 150px;
+    width: 1350px;
+    background-color:  #dcdcdc ;
+    /* transform: translate(-50%, -50%);  */  
+    position: absolute;
+}
+.background img{
+    width: 50px;
+    padding: 30px;
+
+}
+

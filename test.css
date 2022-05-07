@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	/* background-image: url(../images/beach.gif); */
+	background: linear-gradient(rgb(32, 12, 207), rgb(255, 255, 255));  
+	height: 100vh;
+	background-size: cover;
+	
+	/* font-family: fantasy; */
+	background-repeat: no-repeat;
+}
+.menu{
+	
+	text-align: center;
+	background-color: rgb(65, 68, 235);
+}
+.menu ul {
+	display: inline-flex;
+	list-style: none;
+	color: rgb(165, 105, 26);
+}
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.menu ul li :hover{
+	background-color: rgb(255, 255, 255);
+	border-radius: 3px;
+	color: black;
+}
+.menu_1  {
+display: none;
+}
+.menu ul li:hover .menu_1
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(2, 2, 138);
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.menu_1 ul li:hover  {
+   background-color: rgb(2, 2, 138);
+   border-radius: 3px;
+   color: black;
+}
+.menu ul li:hover .menu_1 ul{
+	display: block;
+	margin: 10px;
+}
+/* .menu ul li:hover .menu_1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+ */
+ .home{
+	 width: 2%;
+	 height: 1%;
+	 padding-top: 30px;
+	 margin-left: 20px;
+	padding-left: 10px;
+	
+ }
