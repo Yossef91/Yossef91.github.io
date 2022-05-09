@@ -1,0 +1,308 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            body{
+    background-color: beige;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-size: cover;
+      /* height: 900vh; */
+  }
+  .italy{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: inline;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      padding-left: 100px;
+      padding-top: 100px;
+  }
+  .news{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: inline;
+    color: darkgrey;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;  
+      padding-top: 100px;
+  }
+  img.arrow{
+      width: 1%;
+      /* padding-left: 10px; */
+  }
+  .line a {
+      text-align: left;
+      text-decoration: none;
+      color: #666;
+  }
+  .line ul{
+      display: inline-flex;
+      list-style: none;
+      color: #666;
+  }
+  .line ul li{
+      width: 70px;
+      font-weight: bold;
+  }
+  .italy_news{
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  .news_down{
+      display: inline;
+      font-size: 1em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      padding-left: 110px;
+      /* padding-top: 100px; */
+  
+  }
+  .color{
+      border-bottom:  rgb(128, 122, 122);
+      border-top:  rgb(128, 122, 122);
+      border-style: dotted;
+      border-radius: 0px;
+      /* display: inline; */
+  }
+  .menu_bar{
+      text-align: left;
+      background-color: rgb(255, 255, 255);
+      /* padding-top: 30px; */
+  }
+  .menu_bar ul{
+      display: inline-flex;
+      list-style: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar ul li{
+      /* margin: 15px; */
+      padding: 15px;
+      width: 90px;
+  }
+  .menu_bar ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar ul li:hover{
+      background-color: rgb(230, 225, 225);
+      border-radius: 7px;
+      color: aliceblue;
+  }
+  img.icon{
+      width:20px;
+      height: 50px;
+      padding-top: 20px;
+      margin-right:8px;
+  }
+  .menu_football{
+      display: none;
+  }
+  .menu_bar ul li:hover .menu_football{
+  display: block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-left: -15px;
+  }
+  .menu_bar ul li:hover .menu_football ul{
+      display: block;
+      margin: 10px;
+  }
+  
+  .menu_bar ul li:hover .menu_football ul li{
+    width: 150px;
+    padding: 15px;
+    border-bottom: 1px dotted rgb(128, 122, 122);
+    /* background: transparent; */
+    border-radius: 3px;
+    text-align: left;
+  }
+  .flag{
+      width: 13%;
+      /* text-align: left; */
+      /* padding-top: 40px; */
+      /* margin-top: 20px; */
+      /* align-content: left; */
+  }
+  .menu_bar2{
+      text-align: left;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding-top: 30px; */
+      border-bottom: 1px dotted rgb(179, 166, 166);
+      border-top: 1px dotted rgb(179, 166, 166);
+      border-radius: 3px;
+      width: 900px;
+  
+  }
+  .menu_bar2 ul{
+      display: inline-flex;
+      list-style: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar2 ul li{
+      /* margin: 15px; */
+      padding: 15px;
+      width: 90px;
+      font-weight: bold;
+  }
+  .menu_bar2 ul li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+  }
+  .menu_bar2 ul li:hover{
+      background-color: rgb(230, 225, 225);
+      border-radius: 7px;
+      color: aliceblue;
+  }
+  img.icon{
+      width:20px;
+      height: 50px;
+      padding-top: 20px;
+      margin-right:8px;
+  }
+  .menu_football{
+      display: none;
+  }
+  .image_news1{
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /* background: rgba(0, 0, 0, 0.4); */
+    text-align: center;
+   
+}
+.image_news1 a{
+     text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(0, 0, 0);
+}
+p{
+    text-align: left;
+    padding: 20px;
+}
+.background{
+    top: 1000px;
+    height: 150px;
+    width: 1350px;
+    background-color:  #dcdcdc ;
+    /* transform: translate(-50%, -50%);  */  
+    position: absolute;
+}
+.background img{
+    width: 50px;
+    padding: 30px;
+
+}
+.image_news1 img{
+    width: 600px;
+    top: 110%;
+}
+
+
+        </style>
+    </head>
+    <link rel="stylesheet" href="./css/image_News1.css">
+    <body>
+        <div class="menu_bar">
+            <ul>
+              <li> <a href="./pp.html">Home</a></li>
+              <li> <a href="#"></a>Football 
+               <div class="menu_football">
+                   <ul>
+                           <li><img class="flag" src="./images/england.png" alt=""> <a href=""></a>England</li>
+                           <li><img class="flag" src="./images/italy.png" alt=""><a href=""></a>Italy</li>
+                           <li><img class="flag" src="./images/spain_1.png" alt=""><a href=""></a>Spain</li>
+                           <li><img class="flag" src="./images/germany.jpg" alt=""><a href=""></a>Germany</li>
+                           <li><img class="flag" src="./images/egypt.png" alt=""><a href=""></a>Egypt</li>
+                   </ul>
+               </div>
+              </li>
+              <li> <a href="#"></a> Bascketball</li>
+              <li> <a href="#"></a>Volleyball </li>
+              <li> <a href="#"></a> Amirican F.B </li>
+              <li> <a href="#"></a>Tennis </li>
+              <li> <a href="#"></a> About</li>
+          </ul>
+          
+       </div>
+       <div class="line">
+           <ul>
+               <li><a href="./pp.html"></a></li>
+               <li></li>
+               <li></li>
+           </ul>
+       </div>
+       
+        <div class="italy_news">
+             <div class="italy">Italy</div>  <div class="news">News</div> 
+        </div>
+        <div class="menu_bar2">
+            <ul>
+            <li><a href=""></a>News</li>
+            <li><a href=""></a>teams</li>
+            <li><a href=""></a>fixtures</li>
+            <li><a href=""></a>Results</li>
+            <li><a href=""></a>Tables</li>
+            <li><a href=""></a>Stats</li>
+            <li><a href=""></a>Squad</li>
+        </ul>
+        </div>
+        <p>Italy striker Ciro Immobile was happy to end an international goal drought stretching back more than two years in Sunday’s European Championship qualifying win over Finland.
+
+    Immobile’s header in the 59th minute of the 2-1 win at the Tampere Stadium was his first for the Azzurri since September 5, 2017.
+    
+    Although Teemu Pukki equalised for the home side, Jorginho’s penalty won it for Italy to maintain their 100 per cent record in Group J and move them closer to qualification for next summer’s tournament.
+    
+    Lazio striker Immobile said afterwards: “I’ve got rid of something that was hanging around my neck.
+    
+    “I really wanted to score. I’m getting my confidence back by scoring and I’m happy with this.”
+    
+    Italy boss Roberto Mancini acknowledged things did not run smoothly as he admitted to the Azzurri’s official Twitter feed: “We created problems for ourselves.
+    
+    “Then, we took control of things again and all of the guys did well.
+    
+    “Having more players to choose from can only be a positive. This group is improving.
+    
+    “Our philosophy is to attack, you’ll give something up at the back when you do that – but the defence is up to it.”
+    
+    Mancini is already looking forward to qualification, with four group matches remaining and his team nine points clear of third-placed Armenia.
+    
+    Next up is a home match against Greece on October 12, with a trip to Liechtenstein following three days later.
+    
+    The former Fiorentina, Lazio and Inter Milan boss added: “The next match could secure qualification for Euro 2020. I want to feel the passion from the fans.” </p>
+       <form class="image_news1"  action="">
+        
+          <img src="./images/italy_news_3.jpg" alt=""> 
+  
+       </form>
+       <form class="background" action=""> 
+        <center>
+             <a href=""><img src="./images/insta_2.png" alt="">  </a>  
+            <a href=""><img src="./images/twitter.png" alt="">  </a>  
+            <a href=""><img src="./images/facebook_1.png" alt="">  </a>  
+        </center>
+        <center style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;" >
+            Contact Us
+        </center>
+           
+     </form> 
+  
+          
+    </body>
+</html>
