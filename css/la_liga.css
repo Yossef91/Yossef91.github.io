@@ -178,3 +178,38 @@ tbody{
     overflow: hidden;
 
 }
+.title{
+    margin-top: 130px;
+    background-color: aqua;
+    width: inherit;
+    padding-left: 640px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.matches{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.mat-icon{
+    float: left;
+    width: 600px;
+}
+.mat-icon-img{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.vs{
+    margin-top: 7px;
+    float: left;
+}
+.mat-font{
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 150px;
+    color: white;
+}
+.active-btn{
+    background-color: black;
+}
