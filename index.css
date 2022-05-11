@@ -4,6 +4,8 @@ body{
     font-family: sans-serif;
    background-image: url(../images/sports-wallpaper.gif);
     background-size: cover;
+    background-repeat: no-repeat;   
+
 }
 .box{
     width: 300px;
