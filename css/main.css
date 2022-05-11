@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.backG{
+    position: relative;
+    transition: all 10s;
+    margin-bottom: 50px;
+
+}
+
+.backG h1 {
+    position: absolute;
+    z-index: 9999;
+    left: 37%;
+    top: 100px;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    /* color: #030749; */
+    color: #2e34a3;
+    transition: all .7s;
+    background-color: transparent;
+
+
+    
+}
+.backG .header-imgs{
+    background-image: url(../img/swimming-pool_1920.jpg);
+   height: 83vh;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+  }
+  .backG h1:hover{
+    color: white;
+    background-color: rgb(28, 113, 211);
+    top: 120px;
+  }
+.main_sunject{
+margin-top: 80px;
+text-align: center;
+  }
+h2{
+    font-size: 24px;
+    color: #030749;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.old2{
+    padding: 50px;
+}
+.task3 h3{
+    font-size: 30px;
+}
+.task3 p{
+    font-size: 22px;
+    color: #8888;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.task3 h2{
+    font-size: 30px;
+    margin-top: 500px;
+}
+.task3{
+    text-align: center;
+}
+.parent2{
+    margin: auto;
+    width: 90%;
+    
+ }
+ .task2{
+     float: left;
+     padding: 30px;
+     text-align: center;
+     width:45%;
+     line-height: 25px;
+     margin-top: 20px;
+ }
+ .task5{
+     float: left;
+     padding: 30px;
+     text-align: center;
+     width:28%;
+     line-height: 25px;
+     margin-top: 20px;
+     transition: all 1s;
+
+ }
+ .task5 img{
+     margin-bottom: 30px;
+     transition: all 1s;
+
+     
+ }
+ .task2 p{
+     font-size: 17px;
+ }
+ .task5 p{
+     font-size: 17px;
+ }
+ .task2 h4{
+font-size: 24px;
+margin-bottom: 15px;
+color: #030749;
+font-weight: 900 !important;
+font-family:'Courier New', Courier, monospace;
+
+}
+
+
+.old3{
+    padding: 50px;
+}
+.parent3{
+    margin: auto;
+    width: 85%; 
+}
+
+.old3{
+    background-color: #403d38;
+    height: 60%;
+    opacity: 1;
+}
+.old3 h4{
+    font-size: 18px;
+    color: white;
+}
+.old3 p{
+    color:#969696;
+}
+
+.task5 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #030749;
+    font-weight: 900 !important;
+    font-family:'Courier New', Courier, monospace;
+    transition: all 1s;
+
+    }
+
+    .task5{
+        margin-top: 40px !important;
+    }
+.task5:hover h4 {
+color: rgb(63, 26, 167);
+font-size: 25px;
+    }
+.task5:hover img {
+transform:scale(1.05);
+box-shadow: 5px 10px 10px #9698a3;
+
+    }
+
+    .new{
+        background-color: #f8f8f8;
+       width: 100%;
+        height: 70vh;
+        margin: auto;
+        padding: auto;
+    }
+
+    .new img{
+        margin-left: 25px;
+        width: 80%;
+        transition: all 1s;
+        box-shadow: 5px 10px 10px #9698a3;
+
+    }
+    .task {
+        text-align: left !important;
+            float: left;
+            padding: 30px;
+            text-align: center;
+            width:45%;
+            line-height: 25px;
+            margin-top: 20px;
+            
+        }
+        .task p{
+            margin-left: 35px;
+
+font-size: 25px;
+margin-top: 10px;
+        }
+        .task h2{
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 35px;
+
+        }
+        .task:hover img{
+            transform:scale(1.15);
+
+        }
+
+.next_page{
+    margin-top: 450px;
+    margin-bottom: 100px;
+    margin-left: 45%;
+}
+.next button{
+    padding: 20px 30px ;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: all 1s;
+}
+a {
+    text-decoration: none;
+    color: #030749;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    transition: all 1s;
+
+}
+button:hover{
+    background-color: rgb(238, 12, 12);
+
+}
+button:hover a{
+    color: white;
+    font-weight: 900;
+
+}
+
