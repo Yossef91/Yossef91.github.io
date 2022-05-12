@@ -1,142 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Sports News
-        </title>
-         <link rel="stylesheet" href="home.css"> 
-	    <style>
-            *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
-  
-    height: 105vh;
-    font-family: sans-serif;
-    background-size: cover;
-    /* background: no-repeat; */
-}
-.menu_bar{
-    text-align: center;
-    /* background-color: rgb(204, 74, 74); */
-    padding-top: 30px;
-}
-.menu_bar ul{
-    display: inline-flex;
-    list-style: none;
-    color: rgb(0, 0, 0);
-}
-.menu_bar ul li{
-    margin: 15px;
-    padding: 15px;
-    width: 120px;
-}
-.menu_bar ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-.menu_bar ul li:hover{
-    background-color: rgb(192, 55, 55);
-    border-radius: 7px;
-    color: aliceblue;
-}
-img.icon{
-    width:20px;
-    height: 50px;
-    padding-top: 20px;
-    margin-right:8px;
-}
-.menu_football{
-    display: none;
-}
-.menu_bar ul li:hover .menu_football{
-display: block;
-position: absolute;
-background-color: rgb(204, 74, 74);
-margin-top: 15px;
-margin-left: -15px;
-}
-.menu_bar ul li:hover .menu_football ul{
-    display: block;
-    margin: 10px;
-}
-.sports{
-    margin-top: 40px;
-}
-.menu_bar ul li:hover .menu_football ul li{
-  width: 150px;
-  padding: 15px;
-  border-bottom: 1px dotted rgb(228, 116, 116);
-  /* background: transparent; */
-  border-radius: 3px;
-  text-align: left;
-}
-.logo {
-	float:  center ;
-    width: 50%;
-    
-}
-.sochial{
-    width: 2%;
-    padding-left:5px;
-}
-.flag{
-    width: 13%;
-    /* text-align: left; */
-    /* padding-top: 40px; */
-    /* margin-top: 20px; */
-    /* align-content: left; */
-    
-
-}
-
-        </style>
-    </head>
-	
-    <body>
-        
-        <center><img class="logo" src="../images/Sports-news-png.webp" alt=""> </center> 
-        <div class="menu_bar">
-             <ul>
-                 <img  class="icon" src="./images/home.png" alt="">
-               <li> <a href="#"></a>Home</li>
-               <img  class="icon" src="./images/football.png" alt="">
-               <li> <a href="#"></a>Football 
-                <div class="menu_football">
-                    <ul>
-                            <li><img class="flag" src="./images/england.png" alt=""> <a href=""></a>England</li>
-                            <li><img class="flag" src="./images/italy.png" alt=""><a href="./italy.html">Italy</a></li>
-                            <li><img class="flag" src="./images/spain_1.png" alt=""><a href="la_liga.html">Spain</a></li>
-                            <li><img class="flag" src="./images/germany.jpg" alt=""><a href=""></a>Germany</li>
-                            <li><img class="flag" src="./images/egypt.png" alt=""><a href=""></a>Egypt</li>
-			    <li><img class="flag" src="images/handball.png" alt=""><a href="index1.html">Handball</a></li>
-
-                    </ul>
-                </div>
-               </li>
-               <img class="icon" src="./images/basketball-308681_960_720.webp" alt="">
-               <li> <a href="mostafa.html">Bascketball</a> </li>
-               <img  class="icon" src="./images/volley.png" alt="">
-               <li> <a href="volley.html">Volleyball</a> </li>
-               <img  class="icon" src="./images/boxing5.jpg" alt="">
-               <li> <a href="mosalah.html">Boxing </a> </li>
-               <img  class="icon" src="./images/tennis.1.png" alt="">
-               <li> <a href="fcai hu.htm">Tennis</a> </li>
-               <img  class="icon" src="./images/swiming.png" alt="">
-               <li> <a href="Swimming.html">Swimming</a> </li>
-           </ul>
-           
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <link rel="stylesheet" type="text/css" href="styleHome.css" />
+</head>
+<body>
+    <script src="java.js"></script>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">volleyball</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WATCH</a></li>
+                    <li><a href="#">VOLLEYBALL</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to text"/>
+                <a href="#"><button class="btn">search</button></a>
+            </div>
         </div>
-               <center> <img class="sports" src="./images/R.png" alt=""></center> 
-        <div >
-            <center>
-               <a href="https://www.instagram.com/" target="_blank"><img  class="sochial" src="./images/insta_2.png" alt="instagram"></a> 
-              <a href="https://twitter.com" target="_blank"> <img class="sochial"  src="./images/twitter.png" alt="twitter"></a> 
-              <a href="https://www.facebook.com" target="_blank"><img class="sochial" src="./images/facebook_1.png" alt="facebook"></a>  
-            </center>
+        <div class="Article">
+            <img src="photo.png" alt="photo" />
+            <h1 style="color:#FF9800;">تاريخ الكرة الطائرة</h1>
+            <br />
+            <hr />
+            <br />
+            <p>
+                يعود الفضل في ابتكار لعبة كرة الطائرة إلى الأمريكي ويليام جورج مورغان، وذلك في عام 1895م في صالةٍ رياضية ذات أرضية ترابية توجد في مدينة هوليوك بولاية ماساتشوستس التي تقع في الولايات المتحدة الأمريكية، حيث بدأت اللعبة منذ ذلك الوقت بالانتشار تدريجياً، وتم عرض مباريات هذه الرياضة على التلفاز، كما تم تنظيم العديد من البطولات العالمية لكرة الطائرة  بطولة العالم في عام 1949م، وشهد عام 1964م تقديم اليابان لرياضة كرة الطائرة في الألعاب الأولمبية، وأُدرجت في الألعاب الأولمبية التي أقيمت في مدينة أتلانتا عام 1996م، واستمرت هذه الرياضة بالتطوّر حتى أصبحت في الآونة الأخيرة واحدة من أكثر خمس رياضات دولية انتشاراً على مستوى العالم، ويُعتبر الاتحاد الذي يُنظّم هذه الرياضة الاتحاد الرياضي الدولي الأكبر في العالَم؛ حيث يضم الاتحاد الدولي لكرة الطائرة 220 اتحاداً وطنياً لدول مختلفة، ويعود تاريخ تأسيسه إلى عام 1946م</p>
+                <hr/>
+                <br/>
+                <h3 style="color:#FF9800;">بطولة كأس العالم للكرة الطائرة</h3>
+                <p>
+                    تُمثّل بطولة كأس العالم للكرة الطائرة للرجال والنساء (بالإنجليزية: FIVB) أكبر المحافل الرياضية لكرة الطائرة، ويتم إقامة هذه البطولة الدولية العالمية مرةً كل أربع سنوات، حيث أقيمت أول بطولة عالم لهذه الرياضة في عام 1949م في مدينة براغ التي تقع في تشيكوسلوفاكيا، وكان ذلك في ملعب تنس خارجي تم تعديله ليُناسب رياضة كرة الطائرة، بالإضافة إلى ذلك يتم إقامة بطولة أوروبية لكرة الطائرة يشترك فيها عشرة منتخبات من قارة أوروبا</p>
+                    <hr />
+                    <br />
+                    <h3 style="color:#FF9800; ">دوري أبطال أوروبا للكرة الطائرة</h3>
+                    <p>
+                        تتمثّل مسابقة دوري أَبطال أوروبا لِلكرة الطائِرة بوجود تصفيات ومراحل عدة، تبدأ بالمرحلة الرئيسية والتي تتنافس فيها الفرق المشاركة خلال ثلاث جولات، والفرق العشرون الفائزة من هذه الجولات تواصل طريقها إلى الجولة الرابعة، ويتم فيها توزيع الفرق إلى 5 مجموعات بحيث يكون 4 فِرق في كل مجموعة، ويتأهل بعد ذلك 8 فرق وهم أوائل المجموعات بالإضافة إلى أفضل ثانيين ويُسمى هذا بالدور ربع النهائي، يليه الدور نصف النهائي بوجود 4 فرق، ثم المباراة النهائية بين فريقين اثنين</p>
+                    <br />
         </div>
-    </body>
+        <div class="date">
+        </div>
+        <div class="socialmedia">
+            <img src="F.png"  />
+            <img src="W.png"  />
+            <img src="T.png"  />
+        </div>
+    </div>
+
+</body>
 </html>
