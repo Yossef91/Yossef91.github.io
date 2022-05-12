@@ -1,0 +1,164 @@
+  <doctype html>
+<html>
+
+<head>
+  <style>
+/*----- css dark mode button -----*/   
+.arabes1{float:left;position:fixed;bottom:7px;z-index:999;;right: 17px;}
+.arabes1 svg{width:33px;height:33px;vertical-align:-5px;background-repeat:no-repeat!important;content:''}
+.arabes1 svg path{fill:#a09f9f9e}
+.arabes1 .check:checked~.NavMenu{opacity:1;visibility:visible;top:45px;min-width:200px;transition:all .3s ease;z-index:2}
+.iconmode{cursor:pointer;display:block;padding:8px;background-position:center;transition:all .5s linear}.check{display:none}
+.arabes1 .iconmode .openmode{display:block;background: #020202;opacity: .3;border-radius: 4px;}
+.arabes1 .iconmode .closemode{display:none}
+.arabes1 .check:checked~.iconmode .openmode{display:none}
+.arabes1 .check:checked~.iconmode .closemode{display:block}
+  
+ /*----- Start adding Elements From here -----*/   
+.nightmode 
+{background:rgb(15, 15, 36);color:rgb(244, 236, 236)!important}   
+
+
+
+
+
+
+
+.ashely{font-size: 30px;
+color: white;
+text-transform: capitalize;
+}
+
+
+
+
+p2{font-size:50px;
+    color:white;
+text-transform: capitalize;}
+
+
+p3{color: white;
+font-size: 40px;
+text-transform: capitalize;}
+
+
+
+H1{font-size:60px;
+    color:white;} 
+
+
+    .player{width: 360px;
+    height: 360px;
+margin-left: 5px;}
+
+
+
+.link{font-size: 50px;
+color:red}
+
+
+.link2{font-size: 50px;
+color:red}
+
+
+.andreih{
+    font-size: 50px;
+color:red}
+
+
+
+
+
+</style>
+
+
+      
+  
+<meta charset="UTF_8">
+<link rel="stylesheet" href="fcai.css"></link>
+<title>tennis</title>
+</head>
+
+
+
+
+
+<body background="22.JPG">
+
+
+
+
+    <!-- Dark mode -->
+<div class='arabes1'><input class='check' id='arabes1' title='Mode Dark' type='checkbox'/>  
+  <label class='iconmode' for='arabes1'>  
+  <svg class='openmode' viewBox='0 0 24 24'><path d='M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z'/></svg>  
+  <svg class='closemode' viewBox='0 0 24 24'><path d='M14.3,16L13.6,14H10.4L9.7,16H7.8L11,7H13L16.2,16H14.3M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69M10.85,12.65H13.15L12,9L10.85,12.65Z'/></svg>  
+  </label>  
+  </div>
+
+  
+
+
+  <script type='text/javascript'>  
+    //<![CDATA[  
+    /* Night Mode/Dark Mode Feature - By Arabes1.com */    
+    $(document).ready(function(){$("body").toggleClass(localStorage.toggled),$("#arabes1").on("click",function(){"nightmode"!=localStorage.toggled?($("body").toggleClass("nightmode",!0),localStorage.toggled="nightmode",$(".section-center").css("display","block")):($("body").toggleClass("nightmode",!1),localStorage.toggled="",$(".section-center").css("display",""))}),$("body").hasClass("nightmode")?$("#arabes1").prop("checked",!0):$("#arabes1").prop("checked",!1)});  
+    //]]>  
+    </script>
+    
+
+
+
+
+
+
+
+
+<center>
+
+  <header>
+    <h1 style="background-color:black ;font-size: 40px;text-shadow: 3px 2px gray;"><i><ins> TENNIS NEWS</ins></i></h1>
+  </hader>
+  
+
+
+
+
+
+
+  
+
+
+
+<div>
+  <img class="ash" src="11.jpg"   width="637" height="360"><br>
+
+<p1 class="ashely"><b>surprising retirement at age of 25 of world number one tennis player "ashely party"</b><br>world number one tennis player ashely partyhas shocked sports fans by announcing her retirement from professional tennis at age of 25.<br> the australian champion made the announcement on social media on wednesday ,saying he was leaving to"pursue other dreams"  .<br> she said "completely worn out" and nothiong to offer me, im so happy so ready i feel in my heart now ,for me as a person ,this is the right thing to do<br> </p1>
+
+
+
+
+<a class="link" href="ashely party.html" target="blank">for more details click here</a><br></div>
+
+
+<div><img class="maiar" src="maiar sherif.JPG" width="500" height="500">  <br>
+
+<p2> egypt's tennis star<i><b> mayar sherif</b></i> reaches unprecedented heights.she can look to another year of achievements<b> <p2><br>
+
+<a class="link2" href="page1.html" target="blank"> for more details click here</a><br></div>
+
+<div><img class="player"  src ="andreih.jpg"><br>
+
+<p3><b> andreih rubilve completes the contract for the quarter-finalist of monte carlo</b> </p3><br>
+
+
+<a class="andreih" href="andereih.html" target="blank">for more details click here</a></div>
+
+
+
+
+
+
+</center>
+</body>
+</html>
